@@ -1,3 +1,5 @@
+//DID THE BONUS TASK ALSO
+
 function generateMaze(N, M) {
   if (N % 2 === 0 || M % 2 === 0) {
     throw new Error("N and M must be odd numbers.");

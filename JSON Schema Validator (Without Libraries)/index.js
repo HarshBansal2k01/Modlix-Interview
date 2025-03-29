@@ -1,3 +1,4 @@
+// DID THE BONUS TASK ALSO EXCEPT THE Nested Objects
 function validateJson(schema, data, path = "") {
   if (
     schema.type !== "object" ||

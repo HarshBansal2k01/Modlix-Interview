@@ -11,7 +11,7 @@ function validateJson(schema, data, path = "") {
   const requiredFields = schema.required || [];
   const properties = schema.properties || {};
 
-  // Checkinf for required fields
+  // Checking for required fields
   for (const field of requiredFields) {
     if (!(field in data)) {
       return `Error: Missing required field '${path + field}'`;

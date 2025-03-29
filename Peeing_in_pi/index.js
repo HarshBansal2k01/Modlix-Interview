@@ -54,12 +54,12 @@ class Solution {
   }
 }
 
-// Function to load the first N digits of Pi from a file
+
 function loadPiDigits(filename) {
-  return fs.readFileSync(filename, "utf8").trim(); // Read and trim the file
+  return fs.readFileSync(filename, "utf8").trim(); 
 }
 
-// Load Pi digits (Assume 'pi_1million.txt' contains the first 1 million digits)
+// Load Pi digits 
 const piDigits = loadPiDigits("pi_1billion.txt");
 // in this file you have a demo number of digits to check the code gives the correct result or not
 const CheckingForCorrectData = loadPiDigits("num.txt");
